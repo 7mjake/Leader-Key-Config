@@ -1,0 +1,141 @@
+{
+  "actions" : [
+    {
+      "key" : "",
+      "label" : "Confetti",
+      "type" : "url",
+      "value" : "raycast://extensions/raycast/raycast/confetti"
+    },
+    {
+      "key" : "h",
+      "label" : "Hand mirror",
+      "type" : "command",
+      "value" : "osascript -e 'tell application \"System Events\" to keystroke \"h\" using {shift down, command down, option down, control down}'\n"
+    },
+    {
+      "key" : "l",
+      "label" : "LeaderKey settings",
+      "type" : "command",
+      "value" : "osascript -e 'tell application \"System Events\" to key code 37 using {command down, option down, control down, shift down}'"
+    },
+    {
+      "key" : "e",
+      "label" : "Emojis",
+      "type" : "command",
+      "value" : "osascript -e 'tell application \"System Events\" to key code 49 using {control down, command down}'\n"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "c",
+          "label" : "Calendar",
+          "type" : "command",
+          "value" : "osascript -e 'tell application \"System Events\" to keystroke \"g\" using {shift down, command down, option down, control down}'\n"
+        },
+        {
+          "key" : "t",
+          "label" : "Tasks",
+          "type" : "command",
+          "value" : "osascript -e 'tell application \"System Events\" to keystroke \"t\" using {shift down, command down, option down, control down}'\n"
+        },
+        {
+          "key" : "m",
+          "label" : "Gmail",
+          "type" : "command",
+          "value" : "osascript -e 'tell application \"System Events\" to keystroke \"m\" using {shift down, command down, option down, control down}'\n"
+        }
+      ],
+      "key" : "g",
+      "label" : "Google",
+      "type" : "group"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "c",
+          "label" : "All in one",
+          "type" : "url",
+          "value" : "cleanshot://all-in-one"
+        },
+        {
+          "key" : "a",
+          "label" : "Annotate",
+          "type" : "command",
+          "value" : "osascript -e 'tell application \"System Events\" to keystroke \"v\" using {option down, shift down}'\n"
+        },
+        {
+          "key" : "s",
+          "label" : "Settings",
+          "type" : "url",
+          "value" : "cleanshot://open-settings"
+        },
+        {
+          "key" : "x",
+          "label" : "Clear overlay",
+          "type" : "command",
+          "value" : "osascript -e 'tell application \"System Events\" to keystroke \"7\" using {shift down, command down, option down, control down}'"
+        },
+        {
+          "key" : "p",
+          "label" : "Pin",
+          "type" : "command",
+          "value" : "osascript -e 'tell application \"System Events\" to keystroke \"8\" using {shift down, command down, option down, control down}'"
+        }
+      ],
+      "key" : "c",
+      "label" : "CleanShot",
+      "type" : "group"
+    },
+    {
+      "key" : "v",
+      "label" : "Clipboard history",
+      "type" : "url",
+      "value" : "raycast://extensions/raycast/clipboard-history/clipboard-history"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "g",
+          "label" : "Google",
+          "type" : "command",
+          "value" : "osascript -e 'tell application \"System Events\" to keystroke \"s\" using {shift down, command down, option down, control down}'"
+        },
+        {
+          "key" : "p",
+          "label" : "Perplexity",
+          "type" : "command",
+          "value" : "osascript -e 'tell application \"System Events\" to keystroke \"p\" using {shift down, command down, option down, control down}'"
+        },
+        {
+          "key" : "c",
+          "label" : "ChatGPT",
+          "type" : "command",
+          "value" : "osascript -e 'tell application \"System Events\" to keystroke \"o\" using {shift down, command down, option down, control down}'"
+        }
+      ],
+      "key" : "a",
+      "label" : "Ask...",
+      "type" : "group"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "d",
+          "label" : "Desktop",
+          "type" : "command",
+          "value" : "osascript -e 'tell application \"System Events\" to key code 103'\n"
+        },
+        {
+          "key" : "\r",
+          "label" : "Fill screen",
+          "type" : "command",
+          "value" : "osascript -e 'tell application \"System Events\" to key code 36 using {control down, option down}'"
+        }
+      ],
+      "key" : "\r",
+      "label" : "Windows",
+      "type" : "group"
+    }
+  ],
+  "type" : "group"
+}
