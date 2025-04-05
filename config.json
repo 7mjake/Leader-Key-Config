@@ -50,6 +50,18 @@
       "type" : "group"
     },
     {
+      "key" : "\r",
+      "label" : "Fill screen",
+      "type" : "command",
+      "value" : "osascript -e 'tell application \"System Events\" to key code 36 using {control down, option down}'"
+    },
+    {
+      "key" : "v",
+      "label" : "Clipboard history",
+      "type" : "url",
+      "value" : "raycast://extensions/raycast/clipboard-history/clipboard-history"
+    },
+    {
       "actions" : [
         {
           "key" : "c",
@@ -87,12 +99,6 @@
       "type" : "group"
     },
     {
-      "key" : "v",
-      "label" : "Clipboard history",
-      "type" : "url",
-      "value" : "raycast://extensions/raycast/clipboard-history/clipboard-history"
-    },
-    {
       "actions" : [
         {
           "key" : "g",
@@ -117,25 +123,6 @@
       "label" : "Ask...",
       "type" : "group"
     },
-    {
-      "actions" : [
-        {
-          "key" : "d",
-          "label" : "Desktop",
-          "type" : "command",
-          "value" : "osascript -e 'tell application \"System Events\" to key code 103'\n"
-        },
-        {
-          "key" : "\r",
-          "label" : "Fill screen",
-          "type" : "command",
-          "value" : "osascript -e 'tell application \"System Events\" to key code 36 using {control down, option down}'"
-        }
-      ],
-      "key" : "\r",
-      "label" : "Windows",
-      "type" : "group"
-    }
   ],
   "type" : "group"
 }
