@@ -1,221 +1,226 @@
 {
-  "actions": [
+  "actions" : [
     {
-      "key": " ",
-      "label": "Raycast",
-      "type": "url",
-      "value": "raycast://"
+      "key" : " ",
+      "label" : "Raycast",
+      "type" : "url",
+      "value" : "raycast://"
     },
     {
-      "key": "f",
-      "label": "",
-      "type": "application",
-      "value": "/Applications/Figma.app"
+      "key" : "f",
+      "label" : "",
+      "type" : "application",
+      "value" : "/Applications/Figma.app"
     },
     {
-      "key": "s",
-      "label": "",
-      "type": "application",
-      "value": "/Applications/Slack.app"
+      "key" : "s",
+      "label" : "",
+      "type" : "application",
+      "value" : "/Applications/Slack.app"
     },
     {
-      "key": "a",
-      "label": "",
-      "type": "application",
-      "value": "/Applications/Arc.app"
+      "key" : "a",
+      "label" : "",
+      "type" : "application",
+      "value" : "/Applications/Arc.app"
     },
     {
-      "key": "m",
-      "label": "",
-      "type": "application",
-      "value": "/System/Applications/Messages.app"
+      "key" : "m",
+      "label" : "",
+      "type" : "application",
+      "value" : "/System/Applications/Messages.app"
     },
     {
-      "key": "z",
-      "label": "",
-      "type": "application",
-      "value": "/Applications/zoom.us.app"
+      "key" : "z",
+      "label" : "",
+      "type" : "application",
+      "value" : "/Applications/zoom.us.app"
     },
     {
-      "key": "n",
-      "label": "",
-      "type": "application",
-      "value": "/Applications/Notion.app"
+      "key" : "n",
+      "label" : "",
+      "type" : "application",
+      "value" : "/Applications/Notion.app"
     },
     {
-      "key": "p",
-      "label": "",
-      "type": "application",
-      "value": "/Applications/Spotify.app"
+      "key" : "p",
+      "label" : "",
+      "type" : "application",
+      "value" : "/Applications/Spotify.app"
     },
     {
-      "key": "t",
-      "label": "",
-      "type": "application",
-      "value": "/System/Applications/Utilities/Terminal.app"
+      "key" : "t",
+      "label" : "",
+      "type" : "application",
+      "value" : "/System/Applications/Utilities/Terminal.app"
     },
     {
-      "key": "v",
-      "label": "",
-      "type": "application",
-      "value": "/Applications/Visual Studio Code.app"
+      "key" : "v",
+      "label" : "",
+      "type" : "application",
+      "value" : "/Applications/Visual Studio Code.app"
     },
     {
-      "key": "w",
-      "label": "Superwhisper",
-      "type": "command",
-      "value": "osascript -e 'tell application \"System Events\" to keystroke \"W\" using {shift down, command down, option down, control down}'"
+      "key" : "w",
+      "label" : "Superwhisper",
+      "type" : "command",
+      "value" : "osascript -e 'tell application \"System Events\" to keystroke \"W\" using {shift down, command down, option down, control down}'"
     },
     {
-      "actions": [
+      "key" : "\t",
+      "label" : "Last app",
+      "type" : "command",
+      "value" : "osascript -e 'tell application \"System Events\" to keystroke tab using {command down}'"
+    },
+    {
+      "actions" : [
         {
-          "key": "c",
-          "label": "Calendar",
-          "type": "command",
-          "value": "osascript -e 'tell application \"System Events\" to keystroke \"g\" using {shift down, command down, option down, control down}'\n"
+          "key" : "c",
+          "label" : "Calendar",
+          "type" : "command",
+          "value" : "osascript -e 'tell application \"System Events\" to keystroke \"g\" using {shift down, command down, option down, control down}'\n"
         },
         {
-          "key": "t",
-          "label": "Tasks",
-          "type": "command",
-          "value": "osascript -e 'tell application \"System Events\" to keystroke \"t\" using {shift down, command down, option down, control down}'\n"
+          "key" : "t",
+          "label" : "Tasks",
+          "type" : "command",
+          "value" : "osascript -e 'tell application \"System Events\" to keystroke \"t\" using {shift down, command down, option down, control down}'\n"
         },
         {
-          "key": "m",
-          "label": "Gmail",
-          "type": "command",
-          "value": "osascript -e 'tell application \"System Events\" to keystroke \"m\" using {shift down, command down, option down, control down}'\n"
+          "key" : "m",
+          "label" : "Gmail",
+          "type" : "command",
+          "value" : "osascript -e 'tell application \"System Events\" to keystroke \"m\" using {shift down, command down, option down, control down}'\n"
         }
       ],
-      "key": "g",
-      "label": "Google",
-      "type": "group"
+      "key" : "g",
+      "label" : "Google",
+      "type" : "group"
     },
     {
-      "actions": [
+      "actions" : [
         {
-          "key": "c",
-          "label": "All in one",
-          "type": "url",
-          "value": "cleanshot://all-in-one"
+          "key" : "c",
+          "label" : "All in one",
+          "type" : "url",
+          "value" : "cleanshot://all-in-one"
         },
         {
-          "key": "a",
-          "label": "Annotate",
-          "type": "command",
-          "value": "osascript -e 'tell application \"System Events\" to keystroke \"v\" using {option down, shift down}'\n"
+          "key" : "a",
+          "label" : "Annotate",
+          "type" : "command",
+          "value" : "osascript -e 'tell application \"System Events\" to keystroke \"v\" using {option down, shift down}'\n"
         },
         {
-          "key": "s",
-          "label": "Settings",
-          "type": "url",
-          "value": "cleanshot://open-settings"
+          "key" : "s",
+          "label" : "Settings",
+          "type" : "url",
+          "value" : "cleanshot://open-settings"
         },
         {
-          "key": "x",
-          "label": "Clear overlay",
-          "type": "command",
-          "value": "osascript -e 'tell application \"System Events\" to keystroke \"7\" using {shift down, command down, option down, control down}'"
+          "key" : "x",
+          "label" : "Clear overlay",
+          "type" : "command",
+          "value" : "osascript -e 'tell application \"System Events\" to keystroke \"7\" using {shift down, command down, option down, control down}'"
         },
         {
-          "key": "p",
-          "label": "Pin",
-          "type": "command",
-          "value": "osascript -e 'tell application \"System Events\" to keystroke \"8\" using {shift down, command down, option down, control down}'"
+          "key" : "p",
+          "label" : "Pin",
+          "type" : "command",
+          "value" : "osascript -e 'tell application \"System Events\" to keystroke \"8\" using {shift down, command down, option down, control down}'"
         }
       ],
-      "key": "c",
-      "label": "CleanShot",
-      "type": "group"
+      "key" : "c",
+      "label" : "CleanShot",
+      "type" : "group"
     },
     {
-      "actions": [
-        {
-          "key": "\r",
-          "label": "Fill screen",
-          "type": "url",
-          "value": "raycast://extensions/raycast/window-management/maximize"
-        },
-        {
-          "key": "[",
-          "label": "Left half",
-          "type": "url",
-          "value": "raycast://extensions/raycast/window-management/left-half"
-        },
-        {
-          "key": "]",
-          "label": "Right half",
-          "type": "url",
-          "value": "raycast://extensions/raycast/window-management/right-half"
-        },
-        {
-          "key": "",
-          "label": "Next display",
-          "type": "url",
-          "value": "raycast://extensions/raycast/window-management/next-display"
-        },
-        {
-          "key": "",
-          "label": "Prev display",
-          "type": "url",
-          "value": "raycast://extensions/raycast/window-management/previous-display"
-        },
-        {
-          "key": "d",
-          "label": "Desktop",
-          "type": "url",
-          "value": "raycast://extensions/raycast/system/show-desktop"
-        }
-      ],
-      "key": "\r",
-      "label": "Window mgmt",
-      "type": "group"
+      "key" : "\r",
+      "label" : "Fill screen",
+      "type" : "url",
+      "value" : "raycast://extensions/raycast/window-management/maximize"
     },
     {
-      "actions": [
+      "key" : "[",
+      "label" : "Left half",
+      "type" : "url",
+      "value" : "raycast://extensions/raycast/window-management/left-half"
+    },
+    {
+      "key" : "]",
+      "label" : "Right half",
+      "type" : "url",
+      "value" : "raycast://extensions/raycast/window-management/right-half"
+    },
+    {
+      "key" : "",
+      "label" : "Next display",
+      "type" : "url",
+      "value" : "raycast://extensions/raycast/window-management/next-display"
+    },
+    {
+      "key" : "",
+      "label" : "Prev display",
+      "type" : "url",
+      "value" : "raycast://extensions/raycast/window-management/previous-display"
+    },
+    {
+      "key" : "d",
+      "label" : "Desktop",
+      "type" : "url",
+      "value" : "raycast://extensions/raycast/system/show-desktop"
+    },
+    {
+      "actions" : [
         {
-          "key": "",
-          "label": "Confetti",
-          "type": "url",
-          "value": "raycast://extensions/raycast/raycast/confetti"
+          "key" : "",
+          "label" : "Confetti",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/raycast/confetti"
         },
         {
-          "key": "l",
-          "label": "LeaderKey settings",
-          "type": "command",
-          "value": "osascript -e 'tell application \"System Events\" to key code 37 using {command down, option down, control down, shift down}'"
+          "key" : "l",
+          "label" : "LeaderKey settings",
+          "type" : "command",
+          "value" : "osascript -e 'tell application \"System Events\" to key code 37 using {command down, option down, control down, shift down}'"
         },
         {
-          "key": "r",
-          "label": "Raycast settings",
-          "type": "url",
-          "value": "raycast://extensions/raycast/raycast-settings/general"
+          "key" : "r",
+          "label" : "Raycast settings",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/raycast-settings/general"
         },
         {
-          "key": "1",
-          "label": "Sleep displays",
-          "type": "url",
-          "value": "raycast://extensions/raycast/system/sleep-displays"
+          "key" : "/",
+          "label" : "Sleep displays",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/system/sleep-displays"
         },
         {
-          "key": "e",
-          "label": "Emojis",
-          "type": "command",
-          "value": "osascript -e 'tell application \"System Events\" to key code 49 using {control down, command down}'\n"
+          "key" : "e",
+          "label" : "Emojis",
+          "type" : "command",
+          "value" : "osascript -e 'tell application \"System Events\" to key code 49 using {control down, command down}'\n"
         },
         {
-          "key": "\\",
-          "label": "Notifications",
-          "type": "command",
-          "value": "osascript -e 'tell application \"System Events\" to keystroke \"n\" using {shift down, command down, option down, control down}'"
+          "key" : "\\",
+          "label" : "Notifications",
+          "type" : "command",
+          "value" : "osascript -e 'tell application \"System Events\" to keystroke \"n\" using {shift down, command down, option down, control down}'"
         }
       ],
-      "key": ".",
-      "label": "More",
-      "type": "group"
+      "key" : ".",
+      "label" : "More",
+      "type" : "group"
+    },
+    {
+      "key" : "h",
+      "label" : "",
+      "type" : "application",
+      "value" : "/Applications/GitHub Desktop.app"
     }
   ],
-  "key": "c",
-  "label": "CleanShot",
-  "type": "group"
+  "key" : "c",
+  "label" : "CleanShot",
+  "type" : "group"
 }
