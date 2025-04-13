@@ -173,7 +173,7 @@
     {
       "actions" : [
         {
-          "key" : "",
+          "key" : "c",
           "label" : "Confetti",
           "type" : "url",
           "value" : "raycast://extensions/raycast/raycast/confetti"
