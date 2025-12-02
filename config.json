@@ -17,6 +17,12 @@
       "value" : "/Applications/Google Calendar.app"
     },
     {
+      "key" : "b",
+      "label" : "Obsidian",
+      "type" : "application",
+      "value" : "/Applications/Obsidian.app"
+    },
+    {
       "key" : "g",
       "type" : "application",
       "value" : "/Applications/GitHub Desktop.app"
@@ -70,43 +76,78 @@
           "value" : "osascript -e 'tell application \"System Events\" to keystroke tab using {command down}'"
         },
         {
-          "iconPath" : "rectangle.leadinghalf.filled",
+          "iconPath" : "rectangle.split.3x1",
           "key" : "s",
-          "label" : "Left half",
+          "label" : "First third",
           "type" : "url",
-          "value" : "raycast://extensions/raycast/window-management/left-half"
+          "value" : "raycast://extensions/raycast/window-management/first-third"
         },
         {
-          "iconPath" : "rectangle.righthalf.filled",
-          "key" : "f",
-          "label" : "Right half",
-          "type" : "url",
-          "value" : "raycast://extensions/raycast/window-management/right-half"
-        },
-        {
-          "iconPath" : "squareshape.squareshape.dotted",
+          "iconPath" : "rectangle.split.3x1",
           "key" : "d",
+          "label" : "Center third",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/window-management/center-third"
+        },
+        {
+          "iconPath" : "rectangle.split.3x1",
+          "key" : "f",
+          "label" : "Last third",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/window-management/last-third"
+        },
+        {
+          "iconPath" : "inset.filled.center.rectangle",
+          "key" : "e",
           "label" : "Focus",
           "type" : "url",
           "value" : "raycast://script-commands/focus-single-window"
         },
         {
-          "iconPath" : "squareshape.dotted.squareshape",
+          "iconPath" : "inset.filled.rectangle",
           "key" : "space",
           "label" : "Fill screen",
           "type" : "url",
           "value" : "raycast://extensions/raycast/window-management/maximize"
         },
         {
-          "iconPath" : "squareshape",
-          "key" : "c",
-          "label" : "Desktop",
+          "iconPath" : "inset.filled.rectangle",
+          "key" : "x",
+          "label" : "Left half",
           "type" : "url",
-          "value" : "raycast://extensions/raycast/system/show-desktop"
+          "value" : "raycast://extensions/raycast/window-management/left-half"
+        },
+        {
+          "iconPath" : "inset.filled.rectangle",
+          "key" : "v",
+          "label" : "Right half",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/window-management/right-half"
+        },
+        {
+          "iconPath" : "inset.filled.rectangle",
+          "key" : "a",
+          "label" : "First fourth",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/window-management/first-fourth"
+        },
+        {
+          "iconPath" : "inset.filled.rectangle",
+          "key" : "g",
+          "label" : "Last fourth",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/window-management/last-fourth"
+        },
+        {
+          "iconPath" : "inset.filled.rectangle",
+          "key" : "c",
+          "label" : "Center half",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/window-management/center-half"
         }
       ],
       "key" : "w",
-      "label" : "Window Mgmt",
+      "label" : "Shortcuts",
       "type" : "group"
     },
     {
