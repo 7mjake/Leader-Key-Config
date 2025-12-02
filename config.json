@@ -126,24 +126,31 @@
         },
         {
           "iconPath" : "inset.filled.rectangle",
-          "key" : "a",
+          "key" : "S",
           "label" : "First fourth",
           "type" : "url",
           "value" : "raycast://extensions/raycast/window-management/first-fourth"
         },
         {
           "iconPath" : "inset.filled.rectangle",
-          "key" : "g",
+          "key" : "F",
           "label" : "Last fourth",
           "type" : "url",
           "value" : "raycast://extensions/raycast/window-management/last-fourth"
         },
         {
           "iconPath" : "inset.filled.rectangle",
-          "key" : "c",
+          "key" : "D",
           "label" : "Center half",
           "type" : "url",
           "value" : "raycast://extensions/raycast/window-management/center-half"
+        },
+        {
+          "iconPath" : "camera.metering.center.weighted.average",
+          "key" : "c",
+          "label" : "Center",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/window-management/center"
         }
       ],
       "key" : "w",
