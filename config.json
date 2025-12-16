@@ -236,6 +236,18 @@
       "key" : "/",
       "label" : "CleanShot",
       "type" : "group"
+    },
+    {
+      "key" : "d",
+      "label" : "Datadog",
+      "type" : "application",
+      "value" : "/Applications/Datadog.app"
+    },
+    {
+      "key" : "e",
+      "label" : "ChatGPT",
+      "type" : "application",
+      "value" : "/Applications/ChatGPT.app"
     }
   ],
   "key" : "c",
